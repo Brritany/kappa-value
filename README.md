@@ -11,8 +11,20 @@ Fleiss’ Kappa is a metric used to measure the agreement when in the study **th
 
 # Example usage of Cohen's kappa
 
-### 1.Prepare the dataset
+### 1.Install necessary packages
+```
+import pandas as pd
+import numpy as np
+from sklearn.metrics import cohen_kappa_score
+```
+### 2.Prepare the dataset
 Suppose you have two datasets in DataFrame format
 ```
 raters_1 = pd.DataFrame({'confirm_A': [0, 0, 1, 1, 1, 1, 1, 1, 1]})
+raters_2 = pd.DataFrame({'confirm_B': [0, 0, 1, 1, 1, 1, 1, 1, 1]})
+```
+### 3.Calculate cohen's kappa
+```
+kappa = cohen_kappa_score(rater1, rater2)
+print(kappa)
 ```
