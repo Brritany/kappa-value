@@ -58,3 +58,8 @@ def Fleiss_kappa(n_confirm: pd.DataFrame):
 
 Fleiss_kappa(n_confirm)
 ```
+
+## Reference
+
+## Tools
+[scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html)
