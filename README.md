@@ -59,20 +59,6 @@ def Fleiss_kappa(n_confirm: pd.DataFrame):
 Fleiss_kappa(n_confirm)
 ```
 
-# Patient agreement
-Calculates the labeling consistency of each patient among different reviewers, usually used when the overall Cohen's kappa or Fleiss kappa value is low
-
-Example:
-There are 10 patients, and each patient contains 100 labels, so there are 10*100=1000 labels in total. When calculating the overall Cohen's kappa or Fleiss kappa value is low, the 10 patients can be viewed separately. For each patient Carry out patient agreement, and conduct a second review for those with lower patient agreement scores
-
-|  ID      |  Label_1 | Label_2 | Label_3 |  Agree |
-|  ----    |  ----    |  ----   |  ----   |  ----  |
-|    David |    0     |   0     |   0     |  1     |
-|    David |    0     |   0     |   0     |  1     |
-|    Tom   |    0     |   1     |   0     |  0     |
-|    Tom   |    0     |   1     |   0     |  0     |
-|    Tom   |    1     |   1     |   1     |  1     |
-
 ## Reference
 [Cohen’s Kappa](https://real-statistics.com/reliability/interrater-reliability/cohens-kappa/)
 [Fleiss’ Kappa](https://real-statistics.com/reliability/interrater-reliability/fleiss-kappa/)
