@@ -38,7 +38,11 @@ n_confirm = pd.DataFrame({
     'confirm_C': [0, 0, 1, 1, 1, 1, 1, 1, 0]
     })
 """
-n_confirm represents a DataFrame containing n raters, where confirm_A represents the review content of rater A, confirm_B represents the review content of rater B, and confirm_C represents the review content of rater C, and its example content is a binary classification
+n_confirm represents a DataFrame containing n raters, 
+where confirm_A represents the review content of rater A, 
+confirm_B represents the review content of rater B, and 
+confirm_C represents the review content of rater C, and 
+its example content is a binary classification
 """
 
 # Calculate cohen's kappa
