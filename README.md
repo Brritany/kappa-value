@@ -1,6 +1,6 @@
 English | [繁體中文](README_ch.md)
 
-[Notebook](KappaValue.ipynb)
+<a href="https://colab.research.google.com/github/Brritany/kappa-value/blob/main/KappaValue.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # agreement
 
