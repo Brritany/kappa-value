@@ -45,7 +45,7 @@ confirm_C represents the review content of rater C, and
 its example content is a binary classification
 """
 
-# Calculate cohen's kappa
+# Calculate Fleiss_kappa
 def Fleiss_kappa(n_confirm: pd.DataFrame):    
     df = pd.DataFrame()
     value_counts = n_confirm.apply(pd.value_counts, axis=1)
