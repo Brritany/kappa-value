@@ -1,5 +1,6 @@
 English | [繁體中文](README_ch.md)
-[Notebook]()
+
+[Notebook](KappaValue.ipynb)
 
 # agreement
 
