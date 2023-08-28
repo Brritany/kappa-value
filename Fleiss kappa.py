@@ -17,15 +17,11 @@ confirm_C represents the review content of rater C, and
 its example content is a binary classification
 """
 
-# Calculate cohen's kappa
-def Fleiss_kappa(n_confirm: pd.DataFrame):    
-    df = pd.DataFrame()
-    value_counts = n_confirm.apply(pd.value_counts, axis=1)
-    for value in value_counts:
-        df[value] = value_counts[value]
-        df.fillna(value=0, inplace=True)   
-
-    result = fleiss_kappa(np.array(df))
-    return result
+# Calculate Fleiss Kappa
+def Fleiss_kappa(n_confirm: pd.DataFrame):
+    # Count the number of each score (0 or 1) for each row, fill missing values with 0
+    value_counts = n_confirm.apply(pd.value_counts, axis=1).fillna(0)
+    # Compute Fleiss' Kappa using the counts
+    return fleiss_kappa(value_counts.to_numpy())
 
 Fleiss_kappa(n_confirm)
