@@ -1,6 +1,7 @@
 繁體中文 | [English](README.md)
 
-<a href="https://colab.research.google.com/github/Brritany/kappa-value/blob/main/KappaValue.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+# 示範代碼
+<a href="https://colab.research.google.com/github/Brritany/kappa-value/blob/main/Example_Calculate_Kappa_Value.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # 協議
 
