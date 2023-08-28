@@ -1,7 +1,7 @@
 English | [繁體中文](README_ch.md)
 
 # Example on Colab
-<a href="https://colab.research.google.com/github/Brritany/kappa-value/blob/main/Example_Calculate_Kappa_Value.ipynb.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/Brritany/kappa-value/blob/main/Example_Calculate_Kappa_Value.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # agreement
 
