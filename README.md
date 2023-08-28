@@ -61,11 +61,11 @@ Fleiss_kappa(n_confirm)
 ```
 
 ## Reference
-[Cohen’s Kappa](https://real-statistics.com/reliability/interrater-reliability/cohens-kappa/)
-[Fleiss’ Kappa](https://real-statistics.com/reliability/interrater-reliability/fleiss-kappa/)
+1. [Cohen’s Kappa](https://real-statistics.com/reliability/interrater-reliability/cohens-kappa/)
+2. [Fleiss’ Kappa](https://real-statistics.com/reliability/interrater-reliability/fleiss-kappa/)
 
 ## Tools
-[pandas](https://pandas.pydata.org/)
-[numpy](https://numpy.org/)
-[sklearn.metrics.cohen_kappa_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html)
-[statsmodels.stats.inter_rater.fleiss_kappa](https://www.statsmodels.org/dev/generated/statsmodels.stats.inter_rater.fleiss_kappa.html)
+1. [pandas](https://pandas.pydata.org/)
+2. [numpy](https://numpy.org/)
+3. [sklearn.metrics.cohen_kappa_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html)
+4. [statsmodels.stats.inter_rater.fleiss_kappa](https://www.statsmodels.org/dev/generated/statsmodels.stats.inter_rater.fleiss_kappa.html)
