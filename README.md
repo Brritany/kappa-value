@@ -3,7 +3,7 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 [![Colab](https://img.shields.io/badge/Colab-Example-orange)](https://github.com/Brritany/search_impact_factor/blob/main/Example_Calculate_Kappa_Value.ipynb)
 ![Python Versions](https://img.shields.io/pypi/pyversions/kappa-value.svg?logo=python&logoColor=white)
-![Coverage Status](https://coveralls.io/repos/github/Brritany/kappa-value/badge.svg?branch=master)
+![Coverage Status](https://coveralls.io/repos/github/Brritany/kappa-value/badge.svg?branch=main)
 
 English | [繁體中文](README_ch.md)
 
