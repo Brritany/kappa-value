@@ -1,3 +1,8 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+[![Colab](https://img.shields.io/badge/Colab-Example-orange)](https://github.com/Brritany/search_impact_factor/blob/main/Example_Calculate_Kappa_Value.ipynb)
+
 English | [繁體中文](README_ch.md)
 
 # Example on Colab
@@ -61,11 +66,11 @@ Fleiss_kappa(n_confirm)
 ```
 
 ## Reference
-[Cohen’s Kappa](https://real-statistics.com/reliability/interrater-reliability/cohens-kappa/)
-[Fleiss’ Kappa](https://real-statistics.com/reliability/interrater-reliability/fleiss-kappa/)
+1. [Cohen’s Kappa](https://real-statistics.com/reliability/interrater-reliability/cohens-kappa/)
+2. [Fleiss’ Kappa](https://real-statistics.com/reliability/interrater-reliability/fleiss-kappa/)
 
 ## Tools
-[pandas](https://pandas.pydata.org/)
-[numpy](https://numpy.org/)
-[sklearn.metrics.cohen_kappa_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html)
-[statsmodels.stats.inter_rater.fleiss_kappa](https://www.statsmodels.org/dev/generated/statsmodels.stats.inter_rater.fleiss_kappa.html)
+1. [pandas](https://pandas.pydata.org/)
+2. [numpy](https://numpy.org/)
+3. [sklearn.metrics.cohen_kappa_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html)
+4. [statsmodels.stats.inter_rater.fleiss_kappa](https://www.statsmodels.org/dev/generated/statsmodels.stats.inter_rater.fleiss_kappa.html)

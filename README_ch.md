@@ -1,3 +1,8 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+[![Colab](https://img.shields.io/badge/Colab-Example-orange)](https://github.com/Brritany/search_impact_factor/blob/main/Example_Calculate_Kappa_Value.ipynb)
+
 繁體中文 | [English](README.md)
 
 # 示範代碼
