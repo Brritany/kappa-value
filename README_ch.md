@@ -46,15 +46,11 @@ n_confirm是一個包含n位評分者的DataFrame，
 """
 
 # 計算 Fleiss_kappa
-def Fleiss_kappa(n_confirm: pd.DataFrame):    
-    df = pd.DataFrame()
-    value_counts = n_confirm.apply(pd.value_counts, axis=1)
-    for value in value_counts:
-        df[value] = value_counts[value]
-        df.fillna(value=0, inplace=True)   
-
-    result = fleiss_kappa(np.array(df))
-    return result
+def Fleiss_kappa(n_confirm: pd.DataFrame):
+    # Count the number of each score (0 or 1) for each row, fill missing values with 0
+    value_counts = n_confirm.apply(pd.value_counts, axis=1).fillna(0)
+    # Compute Fleiss' Kappa using the counts
+    return fleiss_kappa(value_counts.to_numpy())
 
 Fleiss_kappa(n_confirm)
 ```
